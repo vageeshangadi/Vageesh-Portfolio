@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vageesh Angadi - Portfolio</title>
+</head>
+
+<body>
+    <header >
+        <div class="branding">
+            <a href="#">My Portfolio</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ... (previous content) -->
+
+<!-- ... (previous content) -->
+
+<section id="home" style="background-color: #4285f4; color: white;">
+    <div class="intro">
+        <h1>Welcome to My Portfolio</h1>
+        <p id="shortIntro">
+            Greetings! I'm Vageesh Angadi, a coding enthusiast from Bangalore, India, with a fervor for software development. Currently pursuing my B.E. in Computer Science at RV College of Engineering, I've honed my skills in languages like C, C++, Java, and web technologies such as HTML, CSS, and JavaScript.
+        </p>
+        <button onclick="showFullIntro()" id="seeMoreButton" style="margin-top: 10px;">See More</button>
+        
+        <p id="fullIntro" style="display: none; margin-top: 10px;">
+            Greetings! I'm Vageesh Angadi, a coding enthusiast from Bangalore, India, with a fervor for software development. Currently pursuing my B.E. in Computer Science at RV College of Engineering, I've honed my skills in languages like C, C++, Java, and web technologies such as HTML, CSS, and JavaScript.
+            My hands-on experience includes crafting a Hotel Reservation System using the MERN stack and an innovative Hospitals Management System with Flask and MySQL. Alongside my academic pursuits, I've actively engaged in competitive coding, achieving commendable ratings on platforms like Leetcode, Codechef, and Codeforces.
+            <br><br>
+            During my internship at Interview Mocha, I've contributed as a Data Structure and Algorithm Problem Setter, embracing the opportunity to stay abreast of industry trends and fuel my passion for learning.
+            <br><br>
+            Beyond the screen, I find joy in traveling, reading, and drawing. Fluent in English and Hindi, with proficiency in Kannada, I'm well-equipped for effective communication.
+            <br><br>
+            Eager to build a dynamic career in software development, I am enthusiastic about continuous learning and embracing new technologies. Let's connect and explore the exciting journey ahead!
+        </p>
+        <button onclick="showShortIntro()" id="seeLessButton" style="display: none; margin-top: 10px;">See Less</button>
+        <button id="viewResumeButton" onclick="openResumeModal()">View Resume</button>
+    </div>
+</section>
+
+<!-- ... (rest of the content) -->
+<div id="resumeModal">
+    <div id="resumeContainer">
+        <button id="closeModalButton" onclick="closeResumeModal()">Close</button>
+        <iframe src="Vageesh Resume.pdf" width="100%" height="600px"></iframe>
+    </div>
+</div>
+
+<!-- ... (rest of the content) -->
+
+
+    <section id="skills" class="hidden">
+        <h2>Technical Skills</h2>
+        <div id="programmingLanguages" class="skills"></div>
+    </section>
+
+    <section id="projects">
+            <h2>Projects</h2>
+        
+            <div class="project">
+                <h3>Hotel Reservation System</h3>
+                <ul>
+                    <li>Developed a hotel reservation system using MERN stack.</li>
+                    <li>Users can search and reserve hotels in their desired location, dates, and preferences.</li>
+                    <li>User authentication is done before making any reservation.</li>
+                </ul>
+                <a href="#" class="button">More Details</a>
+            </div>
+        
+            <div class="project">
+                <h3>Hospitals Management System</h3>
+                <ul>
+                    <li>Developed an innovative Hospitals Management System using Flask and MySQL for the backend. Used HTML, CSS, and JavaScript for the frontend.</li>
+                    <li>The system helps hospitals manage patient admissions, discharges, and bed assignments more efficiently.</li>
+                    <li>Patients can easily book a preferred bed and receive a report via email upon discharge.</li>
+                </ul>
+                <a href="#" class="button">More Details</a>
+            </div>
+    </section>
+<!-- ... (previous content) -->
+
+<section id="codingProfiles" style="background-color: #f5f5f5; padding: 40px; border-radius: 10px; margin-top: 40px;">
+    <h2>Coding Profiles</h2>
+
+    <div class="coding-profiles-container">
+        <div class="coding-profile">
+            <h3>Leetcode</h3>
+            <p>Max Rating: 1898 (Knight)</p>
+            <a href="https://leetcode.com/VMA_546/"  target="_blank" class="button">Visit Profile</a>
+        </div>
+
+        <div class="coding-profile">
+            <h3>Codechef</h3>
+            <p>Max Rating: 1696 (3 star)</p>
+            <a href="https://www.codechef.com/users/vageesh_854"  target="_blank" class="button">Visit Profile</a>
+        </div>
+
+        <div class="coding-profile">
+            <h3>Codeforces</h3>
+            <p>Max Rating: 1203 (pupil)</p>
+            <a href="https://codeforces.com/profile/VMA_514" target="_blank"  class="button">Visit Profile</a>
+        </div>
+
+        <div class="coding-profile">
+            <h3>Geeks for Geeks</h3>
+            <p>200+ problems solved</p>
+            <a href="https://auth.geeksforgeeks.org/user/vageeshangadi62"  target="_blank" class="button">Visit Profile</a>
+        </div>
+    </div>
+</section>
+
+<!-- ... (rest of the content) -->
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Global rank 605 in CodeChef March Starters (div 3) and global rank 633 in March Lunchtime (Div 3)</li>
+            <li>Global rank 938 in LeetCode Weekly Contest 336</li>
+            <li>All India Rank 1012 in round 2 of Innovative India Coding Championship conducted by AICTE</li>
+            <li>Global rank 3765 in Codeforces Round 801 (Div 2)</li>
+            <li>Secured 4th place in coding contest organized by JSSIT on Hackerrank platform</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Intern - Interview Mocha</h3>
+            <p>May 2022 – Present, Pune, Maharashtra</p>
+            <p>Working as a Data Structure and Algorithm Problem Setter, setting 3 to 5 questions per month.</p>
+        </div>
+
+        <div class="job">
+            <h3>Organizer - Rotaract Club of RVCE</h3>
+            <p>Oct 2021 – Jul 2022, Bangalore, Karnataka</p>
+            <p>Worked as an organizer, organized three events in the college.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: vageeshangadi62@gmail.com</p>
+        <p>Phone: +917483482537</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/vageesh-a-21b022203/">linkedin.com/in/vageesh-a-21b022203/</a></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
