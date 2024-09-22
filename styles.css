@@ -1,0 +1,282 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#about img {
+    border: 3px solid #ddd;
+    padding: 5px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #222;
+}
+
+#success-message {
+    color: green;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+#success-message.show {
+    opacity: 1;
+}
+
+/* CSS for Profile Section */
+body, html, #profile {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Background color (adjust as needed) */
+    padding: 0 10px; /* Side padding */
+}
+
+.profile-container {
+    display: flex;
+    align-items: center; /* Vertically center-align the content */
+    justify-content: space-between; /* Space between photo and summary */
+    max-width: 1000px; /* Maximum width of content */
+    width: 100%; /* Full width */
+    gap: 20px; /* Space between profile photo and summary */
+    margin-top: 100px;
+    margin-left: 140px;
+}
+
+.profile-photo-container {
+    flex: 1; /* Take up 1 part of the flex container */
+    text-align: center;
+}
+
+.profile-photo {
+    width: 250px; /* Adjust size as needed */
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.summary-container {
+    flex: 2; /* Take up 2 parts of the flex container */
+    padding-left: 20px; /* Space between photo and summary */
+    margin-left: 150px; 
+    margin-right: 0px;
+    padding-right: 1px;
+}
+
+.summary {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify; /* Justify summary text */
+}
+
+/* CSS for Scroll Down Button */
+.scroll-down {
+    position: absolute;
+    bottom: 70px; /* Position it near the bottom of the profile section */
+    width: 100%;
+    text-align: center;
+}
+
+.scroll-button {
+    font-size: 2em;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-top: 1px;
+}
+
+.scroll-button:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+/* Skills Section Styling */
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.skills-section h3 {
+    font-size: 1.8em;
+    margin-top: 2rem;
+    color: #333;
+}
+
+.skills-section .row {
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.skills-section .col-md-3 {
+    margin-bottom: 2rem;
+}
+
+.skills-section i {
+    color: #333;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s;
+}
+
+.skills-section i:hover {
+    color: #007bff;
+}
+
+.skills-section p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+
+/* Projects Section Styling */
+#projects {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-item h4 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.project-item .date {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #777;
+    margin-left: 10px;
+}
+
+.project-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project-item ul li {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Projects Section Styling */
+#projects {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+/* Box for Each Project */
+.project-box {
+    background-color: #fff; /* White background for the box */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover */
+    margin-bottom: 30px; /* Space between project boxes */
+}
+
+.project-box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Other styles remain unchanged */
+.project-item h4 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.project-item .date {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #777;
+    margin-left: 10px;
+}
+
+.project-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project-item ul li {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Project Link Button Styling */
+.project-link {
+    float: right; /* Aligns the button to the right */
+    margin-left: 10px; /* Space between date and button */
+    font-size: 0.9em; /* Slightly smaller font size */
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* Remove underline */
+}
+
+.project-link:hover {
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
